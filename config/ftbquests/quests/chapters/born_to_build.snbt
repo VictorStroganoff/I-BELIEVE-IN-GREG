@@ -1628,46 +1628,86 @@
 				"4251BA25692578AF"
 				"2940217B5B717065"
 			]
+			icon: "gtceu:pyrithione_bucket"
 			id: "64EBABA4843ED6B1"
-			tasks: [{
-				id: "3CEF3CC712AF41B1"
-				item: "gtceu:pyrithione_bucket"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "3CEF3CC712AF41B1"
+					item: "gtceu:pyrithione_bucket"
+					type: "item"
+				}
+				{
+					id: "46CEFBEC32B7B5AC"
+					title: "In Production"
+					type: "checkmark"
+				}
+			]
+			title: "Pyrithione"
 			x: 47.0d
 			y: 17.0d
 		}
 		{
 			dependencies: ["1203DF60B213912A"]
+			icon: "gtceu:peracetic_acid_bucket"
 			id: "4251BA25692578AF"
-			tasks: [{
-				id: "523BAB71A02CFBC1"
-				item: "gtceu:peracetic_acid_bucket"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "523BAB71A02CFBC1"
+					item: "gtceu:peracetic_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "39DF169FEE28EB54"
+					title: "In Production"
+					type: "checkmark"
+				}
+			]
+			title: "Peracetic Acid"
 			x: 48.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["1B36A21C15801CE8"]
 			hide_dependency_lines: true
+			icon: "gtceu:acetaldehyde_bucket"
 			id: "1203DF60B213912A"
-			tasks: [{
-				id: "4EB74C2084E822D3"
-				item: "gtceu:acetaldehyde_bucket"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "4EB74C2084E822D3"
+					item: "gtceu:acetaldehyde_bucket"
+					type: "item"
+				}
+				{
+					id: "73A4ECB66C26C027"
+					title: "In Production"
+					type: "checkmark"
+				}
+			]
+			title: "Acetaldehyde"
 			x: 49.0d
 			y: 15.0d
 		}
 		{
 			dependencies: ["7669C1F5E4BF8B5C"]
+			icon: "gtceu:2_chloropyridine_bucket"
 			id: "2940217B5B717065"
-			tasks: [{
-				id: "0620EC3A5D794BDC"
-				item: "gtceu:2_chloropyridine_bucket"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "0620EC3A5D794BDC"
+					item: "gtceu:2_chloropyridine_bucket"
+					type: "item"
+				}
+				{
+					id: "4B7E6FE977F5064C"
+					title: "In Production"
+					type: "checkmark"
+				}
+			]
+			title: "2-Chloropyridine"
 			x: 46.0d
 			y: 16.0d
 		}
@@ -1676,12 +1716,22 @@
 				"1203DF60B213912A"
 				"77DBE8183FBFCD93"
 			]
+			icon: "gtceu:pyridine_bucket"
 			id: "7669C1F5E4BF8B5C"
-			tasks: [{
-				id: "29339A7882667196"
-				item: "gtceu:pyridine_bucket"
-				type: "item"
-			}]
+			min_required_tasks: 1
+			tasks: [
+				{
+					id: "29339A7882667196"
+					item: "gtceu:pyridine_bucket"
+					type: "item"
+				}
+				{
+					id: "4AF91BD6E5E996F1"
+					title: "In Production"
+					type: "checkmark"
+				}
+			]
+			title: "Pyridine"
 			x: 47.0d
 			y: 15.0d
 		}
