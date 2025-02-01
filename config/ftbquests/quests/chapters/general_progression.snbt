@@ -1,0 +1,117 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "general_progression"
+	group: "62293B4AEAC4FC97"
+	icon: {
+		Count: 1
+		id: "gtceu:aluminium_wrench"
+		tag: {
+			DisallowContainerItem: 0b
+			GT.Behaviours: {
+				Mode: 2b
+			}
+			GT.Tool: {
+				Damage: 0
+				HarvestLevel: 2
+				MaxDamage: 767
+				ToolSpeed: 10.0f
+			}
+			HideFlags: 2
+		}
+	}
+	id: "1FF44891287ACF68"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C17D8BFEC305FB9"]
+			icon: "gtceu:bronze_ingot"
+			id: "5BFEAC8740E45CCE"
+			title: "Bronze"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BFEAC8740E45CCE"]
+			icon: "gtceu:hp_steam_solid_boiler"
+			id: "36B08924956BB4E6"
+			size: 2.0d
+			title: "Steam Age"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36B08924956BB4E6"
+				"571B11DD0E6933FE"
+			]
+			hide_dependency_lines: false
+			icon: "gtceu:galvenized_steel_plate"
+			id: "7CB24C10D2AF1DCA"
+			title: "Galvenized Steel"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"36B08924956BB4E6"
+				"68351D068CE42EE7"
+			]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "74C5D9866E89F2F9"
+			title: "LV Circuitry"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"74C5D9866E89F2F9"
+				"7CB24C10D2AF1DCA"
+				"7372C96D58F59B5E"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "605D8AF641964BF2"
+			size: 2.0d
+			title: "Low Voltage"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"605D8AF641964BF2"
+				"3FD8D4DC1A54A7F1"
+			]
+			icon: "gtceu:dural_plate"
+			id: "4892AE1B9C5B8E35"
+			title: "Dural"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"605D8AF641964BF2"
+				"56B59123AE9BD18B"
+			]
+			icon: "gtceu:good_electronic_circuit"
+			id: "684A57722FFAF282"
+			title: "MV Circuitry"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"684A57722FFAF282"
+				"4892AE1B9C5B8E35"
+				"700F799DC9365193"
+			]
+			icon: "gtceu:mv_machine_hull"
+			id: "1E062101F718F03E"
+			size: 2.0d
+			title: "Medium Voltage"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "General Progression"
+}

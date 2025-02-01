@@ -1,0 +1,1365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "material_generator"
+	group: "62293B4AEAC4FC97"
+	icon: "gtceu:zpm_rock_crusher"
+	id: "39183E3967D04F51"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["293FF832D0446F3A"]
+			id: "13D00041DF397208"
+			min_required_tasks: 1
+			optional: true
+			tasks: [
+				{
+					id: "2375507929E03715"
+					item: "gtceu:lv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "7837535FDF5CDAE0"
+					item: "gtceu:hp_steam_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "558A046FCA724B5C"
+					item: "gtceu:lp_steam_rock_crusher"
+					type: "item"
+				}
+			]
+			title: "ULV/LV Rock Crusher"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13D00041DF397208"]
+			id: "27C4AB636F3957D7"
+			optional: true
+			tasks: [{
+				id: "04510152EA214F60"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13D00041DF397208"]
+			id: "1A8FB6C82F5333C2"
+			optional: true
+			tasks: [{
+				id: "7063ABD07100225D"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["435F601582CBD12A"]
+			id: "344CACFA3FA88F96"
+			optional: true
+			tasks: [{
+				id: "1E10DEF730E1C7C1"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			title: "MV Rock Crusher"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["344CACFA3FA88F96"]
+			id: "324FB29768BDF766"
+			optional: true
+			tasks: [{
+				id: "4DCF5DDFD90E699D"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["344CACFA3FA88F96"]
+			id: "1681AB4D53F6D5B2"
+			optional: true
+			tasks: [{
+				id: "4460E98B6209B11A"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["344CACFA3FA88F96"]
+			id: "6C5739CC468D905B"
+			optional: true
+			tasks: [{
+				id: "546F01EC2A5B9AD9"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["324FB29768BDF766"]
+			id: "41766F9DB978749B"
+			optional: true
+			tasks: [{
+				id: "7C40618CDBB7D7C6"
+				item: "gtceu:andesite_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41766F9DB978749B"]
+			id: "02D107380F0C540C"
+			optional: true
+			tasks: [{
+				id: "6484B18191B4AEC2"
+				item: "gtceu:asbestos_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41766F9DB978749B"]
+			id: "047D10AE3C7B5531"
+			optional: true
+			tasks: [{
+				id: "0D55F79BDB4AACAA"
+				item: "gtceu:saltpeter_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["02D107380F0C540C"]
+			id: "0D7E49A0EE47065D"
+			optional: true
+			tasks: [{
+				id: "0B053CF6C8E2877C"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D107380F0C540C"]
+			id: "24CAE93CCF87FB54"
+			optional: true
+			tasks: [{
+				id: "101882AF462BEC0A"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D107380F0C540C"]
+			id: "7121D8EE46BCE66A"
+			optional: true
+			tasks: [{
+				id: "3DC6BFDFF5EA2B1F"
+				item: "gtceu:hydrogen_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D107380F0C540C"]
+			id: "6F713185D6A6DD5E"
+			optional: true
+			tasks: [{
+				id: "0159773C4ADFFD57"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["047D10AE3C7B5531"]
+			id: "7F78E30604D57C0D"
+			optional: true
+			tasks: [{
+				id: "7DC2BA66B4D631C7"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["047D10AE3C7B5531"]
+			id: "7E26212A3DC5073D"
+			optional: true
+			tasks: [{
+				id: "62E1F7F6C71EB3F4"
+				item: "gtceu:nitrogen_bucket"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["047D10AE3C7B5531"]
+			id: "149CC8D8B85FBE9A"
+			optional: true
+			tasks: [{
+				id: "5C777DC0B91CAE4B"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C5739CC468D905B"]
+			id: "34080854076E470E"
+			optional: true
+			tasks: [{
+				id: "0BEEC4AD549A9F34"
+				item: "gtceu:granite_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34080854076E470E"]
+			id: "7638EA55C9EE2408"
+			optional: true
+			tasks: [{
+				id: "284D80BB91CFBC47"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34080854076E470E"]
+			id: "4D2894F48C015513"
+			optional: true
+			tasks: [{
+				id: "5BC8D73BC799B482"
+				item: "gtceu:redrock_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7638EA55C9EE2408"]
+			id: "129803BB13BD468C"
+			optional: true
+			tasks: [{
+				id: "0AF3A43035511719"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7638EA55C9EE2408"]
+			id: "0F4C5E2FED3060B7"
+			optional: true
+			tasks: [{
+				id: "202FF5445EE554DC"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D2894F48C015513"]
+			id: "72098A77646896CB"
+			optional: true
+			tasks: [{
+				id: "7F635F87BDA4561B"
+				item: "gtceu:calcite_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D2894F48C015513"]
+			id: "0041486F3F9B4AD3"
+			optional: true
+			tasks: [{
+				id: "27D93030DF699694"
+				item: "gtceu:flint_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0041486F3F9B4AD3"]
+			id: "207A58652F0AA5C6"
+			optional: true
+			tasks: [{
+				id: "1C4C40742805A39E"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72098A77646896CB"]
+			id: "69877CE3D874D902"
+			optional: true
+			tasks: [{
+				id: "15519DE64267C3EA"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72098A77646896CB"]
+			id: "580A885DABE0F1A7"
+			optional: true
+			tasks: [{
+				id: "69811099577A5898"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72098A77646896CB"]
+			id: "65A42A56F7053845"
+			optional: true
+			tasks: [{
+				id: "1FB7C80F83E1FFC4"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["207A58652F0AA5C6"]
+			id: "7D233E98EC416FB1"
+			optional: true
+			tasks: [{
+				id: "50FBBBE853B7BECF"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["207A58652F0AA5C6"]
+			id: "41080BE74EA2F008"
+			optional: true
+			tasks: [{
+				id: "5BA9E9AB65780464"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1681AB4D53F6D5B2"]
+			id: "6FC5CEB4090D80B5"
+			optional: true
+			tasks: [{
+				id: "4FAD95FF720FECDB"
+				item: "gtceu:diorite_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6FC5CEB4090D80B5"]
+			id: "1FCD830C761E0BB9"
+			optional: true
+			tasks: [{
+				id: "7BCE633E9C9F7436"
+				item: "gtceu:mirabilite_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6FC5CEB4090D80B5"]
+			id: "3166E2E8BEF765C3"
+			optional: true
+			tasks: [{
+				id: "5A5214E32700DC65"
+				item: "gtceu:clay_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1FCD830C761E0BB9"]
+			id: "6A515F217439E0B7"
+			optional: true
+			tasks: [{
+				id: "0AD44818E7EC0328"
+				item: "gtceu:sodium_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FCD830C761E0BB9"]
+			id: "1FC75B3DCFFB705D"
+			optional: true
+			tasks: [{
+				id: "5EDA3ABFC7BD5C7B"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FCD830C761E0BB9"]
+			id: "41BBCB1E6E6DEDCC"
+			optional: true
+			tasks: [{
+				id: "65A9195AD8476604"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1FCD830C761E0BB9"]
+			id: "6DC171B4F1815A6C"
+			optional: true
+			tasks: [{
+				id: "6EE51CE01A6FB110"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3166E2E8BEF765C3"]
+			id: "08DDA51875C11CAE"
+			optional: true
+			tasks: [{
+				id: "1BA21BC97CE0343F"
+				item: "gtceu:sodium_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3166E2E8BEF765C3"]
+			id: "5C60E47FC15647DC"
+			optional: true
+			tasks: [{
+				id: "5341BCB2B848A600"
+				item: "gtceu:lithium_dust"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3166E2E8BEF765C3"]
+			id: "586EBA41EBC44C80"
+			optional: true
+			tasks: [{
+				id: "1A2F26694FE8EDCA"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3166E2E8BEF765C3"]
+			id: "5FACAAAAC59891F6"
+			optional: true
+			tasks: [{
+				id: "342F5A5615DF9A46"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3166E2E8BEF765C3"]
+			id: "546348254AEA09B0"
+			optional: true
+			tasks: [{
+				id: "2167951C918CBFBD"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["46939B1BE43F4EE5"]
+			id: "1145E488DB9E7263"
+			optional: true
+			tasks: [{
+				id: "12B5FD6F97F080B8"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["46939B1BE43F4EE5"]
+			id: "742CA0271F768767"
+			tasks: [{
+				id: "17F226935143709B"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["46939B1BE43F4EE5"]
+			id: "2DF1DB16DFC5A025"
+			optional: true
+			tasks: [{
+				id: "4B32EFD0368C625D"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["46939B1BE43F4EE5"]
+			id: "140AECC5C514E13F"
+			optional: true
+			tasks: [{
+				id: "3936134E51FB2C8F"
+				item: "gtceu:marble"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2381CDB7B395D19B"]
+			id: "46939B1BE43F4EE5"
+			tasks: [{
+				id: "73B0724E760C0CAD"
+				item: "gtceu:hv_rock_crusher"
+				type: "item"
+			}]
+			title: "HV Rock Crusher"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["742CA0271F768767"]
+			id: "2E775FE0BA8C3066"
+			optional: true
+			tasks: [{
+				id: "7FD00517DBA6A7D7"
+				item: "gtceu:basalt_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E775FE0BA8C3066"]
+			id: "181F205B9FD3990A"
+			optional: true
+			tasks: [{
+				id: "602C4BEA1142ED16"
+				item: "gtceu:olivine_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E775FE0BA8C3066"]
+			id: "43AFC4C305DDD5E2"
+			optional: true
+			tasks: [{
+				id: "64E6C54FB469F4C2"
+				item: "gtceu:calcite_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2E775FE0BA8C3066"]
+			id: "7C5410BC180E624F"
+			optional: true
+			tasks: [{
+				id: "56A16B9D75097D57"
+				item: "gtceu:flint_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E775FE0BA8C3066"]
+			id: "2E4D690107430E3B"
+			optional: true
+			tasks: [{
+				id: "19D136F08130BEEF"
+				item: "gtceu:dark_ash_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["181F205B9FD3990A"]
+			id: "75135CC658E7AE45"
+			optional: true
+			tasks: [{
+				id: "6E533DCFF7EDBB3E"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["181F205B9FD3990A"]
+			id: "0A3FA439F6C8E5A8"
+			optional: true
+			tasks: [{
+				id: "4760BE721746AB2A"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["181F205B9FD3990A"]
+			id: "7C678FD8504FB932"
+			optional: true
+			tasks: [{
+				id: "7455AF7A47B91BC8"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75135CC658E7AE45"]
+			id: "3B23CEA7B783EF1E"
+			optional: true
+			tasks: [{
+				id: "4FC9A20AB2B8ABD7"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["43AFC4C305DDD5E2"]
+			id: "11880DCB30834D5D"
+			optional: true
+			tasks: [{
+				id: "3D6A096916086FF9"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["43AFC4C305DDD5E2"]
+			id: "78E8D9511E58D985"
+			optional: true
+			tasks: [{
+				id: "7949A3B9529D47F0"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["43AFC4C305DDD5E2"]
+			id: "5386166212887BD0"
+			optional: true
+			tasks: [{
+				id: "4DC188B0B9AC545B"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["75135CC658E7AE45"]
+			id: "53B1BB092627DE68"
+			optional: true
+			tasks: [{
+				id: "3BECAD06B05EF42E"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7C5410BC180E624F"]
+			id: "5AF98335BEB439CD"
+			optional: true
+			tasks: [{
+				id: "0FA5DD47CDAE3BE5"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5AF98335BEB439CD"]
+			id: "6CC65FCD1428E074"
+			optional: true
+			tasks: [{
+				id: "54F77893BE13C616"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5AF98335BEB439CD"]
+			id: "7BC7A2AAE53D3600"
+			optional: true
+			tasks: [{
+				id: "19872D14CA027BFB"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E4D690107430E3B"]
+			id: "563D562FD0A8F2DB"
+			optional: true
+			tasks: [{
+				id: "15F9373A3A1D315C"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E4D690107430E3B"]
+			id: "7A0BE2E7327A263F"
+			optional: true
+			tasks: [{
+				id: "0A4A8597F78ECF1B"
+				item: "gtceu:ash_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7A0BE2E7327A263F"]
+			id: "156D64FB853D4750"
+			optional: true
+			tasks: [
+				{
+					id: "05DF0E340C08A634"
+					item: "gtceu:quicklime_dust"
+					type: "item"
+				}
+				{
+					id: "5562068400CF2F4C"
+					item: "gtceu:potash_dust"
+					type: "item"
+				}
+				{
+					id: "3751A612221C2EFB"
+					item: "gtceu:magnesia_dust"
+					type: "item"
+				}
+				{
+					id: "0537B26E054A2F99"
+					item: "gtceu:phosphorus_pentoxide_dust"
+					type: "item"
+				}
+				{
+					id: "42124E1DCA86D5E5"
+					item: "gtceu:soda_ash_dust"
+					type: "item"
+				}
+				{
+					id: "00309AD3DE2502A9"
+					item: "gtceu:hematite_dust"
+					type: "item"
+				}
+			]
+			title: "Ash Outputs"
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "6577CE60F0D01F6F"
+			optional: true
+			tasks: [{
+				id: "1ADEE205B980D58B"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "3D92AB89D868D159"
+			optional: true
+			tasks: [{
+				id: "52ED95AD9F4576E2"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "506BE64EE66550B3"
+			optional: true
+			tasks: [{
+				id: "26B2A60FA82B90C7"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "11F2B09393CB0071"
+			optional: true
+			tasks: [{
+				id: "6E225184EEBACCBA"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "74EC97EAF08541F7"
+			optional: true
+			tasks: [{
+				id: "3B180CC3D1E9AEA4"
+				item: "gtceu:sodium_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "003F5E5A74E4A1DF"
+			optional: true
+			tasks: [{
+				id: "1133162A4AED412E"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "4C3CD4098D6FABE1"
+			optional: true
+			tasks: [{
+				id: "5BC8005A6B55BD8F"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["156D64FB853D4750"]
+			id: "3FA6791D5F87C75E"
+			optional: true
+			tasks: [{
+				id: "5637E3F40EFD3D19"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["140AECC5C514E13F"]
+			id: "050B993F79CB44F8"
+			optional: true
+			tasks: [{
+				id: "093B2E91B8CB232A"
+				item: "gtceu:marble_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["050B993F79CB44F8"]
+			id: "5B9687C73F4AAB37"
+			optional: true
+			tasks: [{
+				id: "092CD0385D2DB7DC"
+				item: "gtceu:calcite_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["050B993F79CB44F8"]
+			id: "5C9E9BEC0F0C1A7A"
+			optional: true
+			tasks: [{
+				id: "0DD32C210246B2E5"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5B9687C73F4AAB37"]
+			id: "470686970CA46E68"
+			optional: true
+			tasks: [{
+				id: "2866B4F82D32ED1E"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5B9687C73F4AAB37"]
+			id: "51D8F3AB0692CE37"
+			optional: true
+			tasks: [{
+				id: "29462B8A022A15C1"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5B9687C73F4AAB37"]
+			id: "486EF463212082CA"
+			optional: true
+			tasks: [{
+				id: "046B9E5B19EFC9DB"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["13C20135CA4DA23F"]
+			id: "7AE3E6DF9BF9DDB3"
+			optional: true
+			tasks: [{
+				id: "67B0C129B47AE008"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2DF1DB16DFC5A025"]
+			id: "13C20135CA4DA23F"
+			optional: true
+			tasks: [{
+				id: "508E94D76B6CBD1E"
+				item: "gtceu:obsidian_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13C20135CA4DA23F"]
+			id: "14D7BBB1DB6FCE58"
+			optional: true
+			tasks: [{
+				id: "2571B88C535B223C"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13C20135CA4DA23F"]
+			id: "063F006A7AC8628C"
+			optional: true
+			tasks: [{
+				id: "4B2002AE4B6604A9"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["13C20135CA4DA23F"]
+			id: "7C1095F380B111FE"
+			optional: true
+			tasks: [{
+				id: "32AC204A5EA87EC6"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0506F13EBEA39A7C"]
+			id: "76483D1DC257ECB5"
+			optional: true
+			tasks: [{
+				id: "4201C5E6D6C9CF6C"
+				item: "gtceu:uranium_dust"
+				type: "item"
+			}]
+			x: 26.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0506F13EBEA39A7C"]
+			id: "4857FB0F5CB254B2"
+			optional: true
+			tasks: [{
+				id: "1B71824FD164A8CF"
+				item: "gtceu:granite_red_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4857FB0F5CB254B2"]
+			id: "765ADA29F9163787"
+			optional: true
+			tasks: [{
+				id: "706E13D009623D05"
+				item: "gtceu:potassium_feldspar_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4857FB0F5CB254B2"]
+			id: "73084E5E8235FED3"
+			optional: true
+			tasks: [{
+				id: "15340DFB95EC7D68"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["765ADA29F9163787"]
+			id: "14EFDFF821709412"
+			optional: true
+			tasks: [{
+				id: "4A202C6E678103CF"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["765ADA29F9163787"]
+			id: "7323FEADFBC2B658"
+			optional: true
+			tasks: [{
+				id: "7344983A8EFD6345"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["765ADA29F9163787"]
+			id: "6FFCFBA6DA1E3753"
+			optional: true
+			tasks: [{
+				id: "155396D76E788AFA"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4857FB0F5CB254B2"]
+			id: "25B06BC4EAD58F7B"
+			optional: true
+			tasks: [{
+				id: "6398E0B21118BA7F"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["765ADA29F9163787"]
+			id: "01076BE9CD9CB308"
+			optional: true
+			tasks: [{
+				id: "5D5B5E0A6B7331B9"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7295897CF2EE8EEC"]
+			id: "24AC7050685124A4"
+			optional: true
+			tasks: [{
+				id: "30D470B075252AE0"
+				item: "gtceu:thorium_dust"
+				type: "item"
+			}]
+			x: 27.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7295897CF2EE8EEC"]
+			id: "341D298997A2589F"
+			optional: true
+			tasks: [{
+				id: "262EF5C1245F2EB4"
+				item: "gtceu:deepslate_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["341D298997A2589F"]
+			id: "2FC897C790F00D05"
+			optional: true
+			tasks: [{
+				id: "09D7038EBB1C7299"
+				item: "gtceu:biotite_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["341D298997A2589F"]
+			id: "4FC060BD5E36FAA1"
+			optional: true
+			tasks: [{
+				id: "10C667652833280A"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "06EF1CBE8BD9E190"
+			optional: true
+			tasks: [{
+				id: "626B8F435D627EFD"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "3DE159A90E15C33E"
+			optional: true
+			tasks: [{
+				id: "331DB012CBCCFD44"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "53C1E701C45EE5BE"
+			optional: true
+			tasks: [{
+				id: "07E0E15BC2A5850E"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "5D9E53098BD23AF7"
+			optional: true
+			tasks: [{
+				id: "34BFABBE65443D6C"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "42D477184B364D17"
+			optional: true
+			tasks: [{
+				id: "4E98A0CDD598FA31"
+				item: "gtceu:fluorine_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2FC897C790F00D05"]
+			id: "7899D1276E52D760"
+			optional: true
+			tasks: [{
+				id: "0BD7AA19E76FA665"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["34FFBF60F3A8DF17"]
+			id: "555D4B6EDB52956A"
+			optional: true
+			tasks: [{
+				id: "78973B9F1D7F68D9"
+				item: "gtceu:ev_rock_crusher"
+				type: "item"
+			}]
+			title: "EV Rock Crusher"
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["555D4B6EDB52956A"]
+			id: "7295897CF2EE8EEC"
+			optional: true
+			tasks: [{
+				id: "69F78372C434631C"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["555D4B6EDB52956A"]
+			id: "0506F13EBEA39A7C"
+			optional: true
+			tasks: [{
+				id: "288C0662ED7820AA"
+				item: "gtceu:red_granite"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4FC060BD5E36FAA1"]
+			id: "2837B8069EAEE961"
+			optional: true
+			tasks: [{
+				id: "1FB8FA669EEE3B31"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4FC060BD5E36FAA1"]
+			id: "319B901DEBDA6D81"
+			optional: true
+			tasks: [{
+				id: "2676D15CD45F9E97"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 20.0d
+		}
+	]
+	subtitle: [":money_mouth:"]
+	title: "Material Generation"
+}

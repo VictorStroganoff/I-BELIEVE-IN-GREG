@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "all_is_benign"
+	group: "62293B4AEAC4FC97"
+	icon: "minecraft:book"
+	id: "4C0A889AF6FFF478"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to IBIG [i-pik]. IBIG is a modpack indended to be the middleground between expert/realism GT packs such as SuperSymmetry or GTNH and casual GT packs like StarTech, Monifactory and Sky of Grind."
+				"IBIG intends to give the end-user fun (and interesting!!) automation challenges for progression (like Create: Above and Beyond)."
+				"All in all, IBIG trys to give the end-user a playgroud to automate things with the base systems from GregTech."
+			]
+			icon: "minecraft:firework_star"
+			id: "54930CE750B6CE0B"
+			subtitle: "..when God created the heavens and the Earth..."
+			tasks: [{
+				id: "0C97E6CC45342AC9"
+				title: "I read it and I Get it"
+				type: "checkmark"
+			}]
+			title: "From Nothing, Nowhere"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54930CE750B6CE0B"]
+			description: [
+				"I except you to help yourself."
+				""
+				"You can figure most problems out with REI, or a Creative world."
+				"Now bugs however, should be reported. Send them either via CurseForge's Issues page or via the Discord. "
+				"https://discord.gg/4RzBje6cwN"
+			]
+			icon: "minecraft:book"
+			id: "207B9531440DBB39"
+			tasks: [{
+				id: "127D2D235958A622"
+				title: "I Read all"
+				type: "checkmark"
+			}]
+			title: "Help?"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54930CE750B6CE0B"]
+			description: [
+				"As the title says, if you want a endgoal, I would reccomend completing the questbook."
+				"The questbook is also a guide for most processes."
+			]
+			id: "5D64B1CC7ACEA871"
+			tasks: [{
+				id: "68D27C14FEE5CE7F"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "To complete the pack, complete the quests"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "All seems benign"
+}
