@@ -1,12 +1,12 @@
 {
-	"material.gtceu.galvenized_steel": "Galvenized Steel",
+	"material.gtceu.galvenized_steel": "Galvanized Steel",
 	"material.gtceu.dural": "Dural",
 	"material.gtceu.compressed_steel": "Compressed Steel",
 	"material.gtceu.magnetic_compressed_steel": "Magnetic Compressed Steel",
 	"material.gtceu.316n_stainless_steel_precursor": "316N Stainless Steel Precursor",
 	"material.gtceu.316n_stainless_steel": "316N Stainless Steel",
 	"material.gtceu.titanium_steel": "Titanium Steel",
-	"material.gtceu.titanium_enriched_galvenized_steel": "Titanium Enriched Galvenized Steel",
+	"material.gtceu.titanium_enriched_galvenized_steel": "Titanium Enriched Galvanized Steel",
 	"material.gtceu.tungsten_cubide": "Tungsten Cubide",
 	
 	"material.gtceu.sodium_alumate": "Sodium Alumate",
@@ -54,7 +54,7 @@
 	
 	
 	"gtceu.heating_basin": "Heating Basin",
-	"gtceu.steam_solidifier": "Galvenization Chamber",
+	"gtceu.steam_solidifier": "Galvanization Chamber",
 	"gtceu.compression_chamber": "Compression Chamber",
 	
 	"block.kubejs.compressed_steel_casing": "Pressure-Resistant Casing",
